@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.user-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 400px;
+  box-sizing: border-box;
+  padding: 16px;
+  border: 1px solid burlywood;
+}
+
+.actions {
+  width: 400px;
+  display: flex;
+  gap: 16px;
+}
+
+.actions > button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+}
+
+input[type='text'] {
+  width: 400px;
+  box-sizing: border-box;
+  padding: 12px;
+}
+
+.user-infos {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.user-infos > p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.user-card > img {
+  width: 80px;
+  border-radius: 50%;
+}
